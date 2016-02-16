@@ -8,5 +8,5 @@ Konu         | Açıklama
 [Araçlar](https://github.com/besimaltnok/scapy-cheatsheet/tree/master/araclar) | Scapy ile yazılmış işlevsel araç kodları içerir.
 [Sniff](https://github.com/besimaltnok/scapy-cheatsheet/tree/master/sniff) | Sniff fonksiyonu ile ilgili detaylı bilgiler içerir
 [Hazır Fonksiyonlar](https://github.com/besimaltnok/scapy-cheatsheet/tree/master/hazir-fonksiyonlar) | Scapy ile beraber gelen hazır fonksiyonları içerir. (traceroute ..)
-[Paketler](https://github.com/besimaltnok/scapy-cheatsheet/tree/master/araclar) | Paketler ile ilgili temel bilgiler verir. (hakkında, oluşturma, inceleme)
+[Paketler](https://github.com/besimaltnok/scapy-cheatsheet/tree/master/paketler) | Paketler ile ilgili temel bilgiler verir. (hakkında, oluşturma, inceleme)
 
