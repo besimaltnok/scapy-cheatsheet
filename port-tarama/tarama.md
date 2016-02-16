@@ -20,3 +20,24 @@ sr1(ack)
 udp = IP(dst="192.168.1.x")/UDP(dport=[443,666])
 sr(udp)
 ```
+
++ XMAS Scan
+
+```python
+xmas = IP(dst=dst_ip)/TCP(dport=dst_port,flags="FPU")
+sr1(xmass, timeout=2)
+```
+
++ FIN Scan
+
+```python
+fin = IP(dst=dst_ip)/TCP(dport=dst_port,flags="F")
+sr1(fin, timeout=10)
+```
+
++ NULL Scan
+
+```python
+null = IP(dst=dst_ip)/TCP(dport=dst_port,flags="")
+sr1(null, timeout=10)
+```
