@@ -10,5 +10,17 @@ wireshark(arp)
 + Traceroute
 
 ```python
-traceroute()
+traceroute(["www.canyoupwn.me"],maxttl=20)
+```
+
++ Promiscping
+
+```python
+promiscping("192.168.2.0/24")
+```
+
++ ARPing
+
+```python
+arping("192.168.2.0/24")
 ```
