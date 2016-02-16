@@ -17,3 +17,9 @@
 + sniff(iface='wlan0', count=7, prn=Beacon)
 
 + sniff(offline='cypm.pcap', prn=Analiz)
+
+### Alıştırmalar
+
++ Sadece DNS paketleri için bir sniff fonksiyon yazmayı deneyin.
++ Beacon paketlerini sniff etmeyi deneyin
++ Sadece 12 sn bir sniff işlemi gerçekleştirmeyi deneyin.
