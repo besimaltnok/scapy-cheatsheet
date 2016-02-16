@@ -4,3 +4,5 @@
 
 ### Python programlarına dahil etmek
 
+> - from scapy.all import * 
+> - from scapy.all import sniff
