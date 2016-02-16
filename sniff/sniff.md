@@ -1,6 +1,6 @@
 ## Sniffing işlemi 
 
-> - Bu işlem için <b>sniff()</b> fonksiyonunu kullanacağız.
+> - <font size="3" color="black">Bu işlem için <b>sniff()</b> fonksiyonunu kullanacağız.</font>
 
 ## Fonksiyonun detayları - Alabileceği parametreler
 
