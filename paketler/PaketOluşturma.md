@@ -48,7 +48,7 @@ udp.dport = 53
 * DNS
 
 ```python
-dns  = IP(dst="8.8.8.8")/UDP(dport=53)/DNS(rd=1,qd=DNSQR(qname="www.thepacketgeek.com"))
+dns  = IP(dst="8.8.8.8")/UDP(dport=53)/DNS(rd=1,qd=DNSQR(qname="www.google.com"))
 a, un = sr1(dns, verbose=0)
 print a[DNS].summary()
 ```
