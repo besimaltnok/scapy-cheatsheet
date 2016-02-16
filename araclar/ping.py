@@ -3,4 +3,5 @@
 
 from scapy.all import *
 
-icmp = ICMP()
+packet = IP(dst='ip_for_ping') / ICMP()
+sr1(packet)
