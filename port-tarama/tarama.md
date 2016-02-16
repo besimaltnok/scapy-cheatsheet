@@ -41,3 +41,10 @@ sr1(fin, timeout=10)
 null = IP(dst=dst_ip)/TCP(dport=dst_port,flags="")
 sr1(null, timeout=10)
 ```
+
+### Parametreler
+
++ type    = Dönen verinin tipini sorgulayabilirsiniz. ( Örnek dönen değer : <type 'NoneType'>)
++ dport   = Hedef  port adresi
++ sport   = Kaynak port adresi
++ timeout = Cevap dönülmesi için beklenecek süre zarfı
