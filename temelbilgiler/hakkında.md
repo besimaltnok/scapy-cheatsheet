@@ -15,7 +15,7 @@ cevapları eşleyebilir ve daha fazlasını yapabilir. Tarama (scanning), iz sü
 programların yerini tutabilir).
 > - 356 protokolü destekler.
 
-### Bilmemiz Gerekn Temel Komutlar
+### Bilmemiz Gereken Temel Komutlar
 
 > - ls() komutu ile desteklediği protokolleri görebiliriz.
 > - lsc() komutu ile kullanabileceğim fonksiyonları görüntüleyebiliriz.
