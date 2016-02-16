@@ -7,4 +7,4 @@ pcap_path = ""
 packets   = rdpcap(pcap_path)
 
 for pkt in packets:
-   # Do somthings
+   # Do something
