@@ -15,7 +15,7 @@ tcp.dport = 80
 icmp = ICMP()
 icmp.show()
 icmp.display()
-icmp.type = echo-request
+icmp.type = "echo-request"
 ```
 
 * IP
@@ -47,4 +47,18 @@ udp.dport = 53
 
 * DNS
 
+```python
+dns  = IP(dst="8.8.8.8")/UDP(dport=53)/DNS(rd=1,qd=DNSQR(qname="www.thepacketgeek.com"))
+a, un = sr1(dns, verbose=0)
+print a[DNS].summary()
+```
+
 * DHCP 
+
+```python
+dhcp = DHCP() / BOOTP()
+dhcp.show()
+dhcp.display()
+dhcp[BOOTP].op = "BOOTREQUEST"
+dhcp[BOOTP].giaddr = "gateway_ip_address"
+```
