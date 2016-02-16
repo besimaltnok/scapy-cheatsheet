@@ -14,3 +14,15 @@ cevapları eşleyebilir ve daha fazlasını yapabilir. Tarama (scanning), iz sü
 (hping, nmap’in bir kısmı, arpspoof, arp-sk, arping, tcpdump, tethereal, p0f gibi
 programların yerini tutabilir).
 > - 356 protokolü destekler.
+
+
+ ### Bilmemiz Gerekn Temel Komutlar
+
+> - ls() komutu ile desteklediği protokolleri görebiliriz.
+> - lsc() komutu ile kullanabileceğim fonksiyonları görüntüleyebiliriz.
+> - help(komut) ile komutların kullanımı hakkında yardım alabiliriz.
+> - conf ile var olan yapılandırma ayarlarını görüntüleyebilir ve değişiklik yapabiliriz.
+> - sr1() - Layer 3 te paket gönderir ve sadece cevap döndürür.
+> - sr() - Layer 3 te paket gönderip alabilir.
+> - send() - Layer 3 te paket gönderebilir
+> - srloop() - Layer 3 te bir döngüde paket gönderir ve dönen cevapları ekrana basar.
