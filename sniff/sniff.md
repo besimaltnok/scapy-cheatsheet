@@ -4,8 +4,8 @@
 
 ## Fonksiyonun detayları - Alabileceği parametreler
 
-> - prn     = yakalanan paketlerin gönderileceği fonksiyon
-> - count   = yakalanacak paket sayısı
-> - iface   = sniff işleinde kullanılacak interface
-> - filter  = sniff işleminde kullanmak istediğiniz filtreler
-> - offline = daha önce yakaladığını bir pcap dosyasını okuyabilirsiniz.
+* <b>prn</b>     = yakalanan paketlerin gönderileceği fonksiyon
+* <b>count</b>   = yakalanacak paket sayısı
+* <b>iface</b>   = sniff işleinde kullanılacak interface
+* <b>filter</b>  = sniff işleminde kullanmak istediğiniz filtreler
+* <b>offline</b> = daha önce yakaladığını bir pcap dosyasını okuyabilirsiniz.
