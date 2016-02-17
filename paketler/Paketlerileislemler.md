@@ -1,5 +1,6 @@
 ### Oluşturduğumuz ve yakaladığımız paketler ile işlem yapmak
 
+
 + Liste elemanı gibi işlem görürler
 
 ```python
