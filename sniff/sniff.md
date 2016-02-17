@@ -27,4 +27,4 @@ sniff(offline='cypm.pcap', prn=Analiz)
 + Sadece DNS paketleri için bir sniff fonksiyon yazmayı deneyin.
 + Beacon paketlerini sniff etmeyi deneyin
 + Sadece 12 sn bir sniff işlemi gerçekleştirmeyi deneyin.
-+ Yakaladığınız bir beacon paketi için <b>pdfdumpf</b> fonksiyonunu kullanmaya çalışın.
++ Yakaladığınız bir beacon paketi için <b>pdfdump()</b> fonksiyonunu kullanmaya çalışın.
