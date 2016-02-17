@@ -8,14 +8,14 @@ for pkt in packets:
    #Do something
 ```
 
-+Yakalanan paketlerin özeti
++ Yakalanan paketlerin özeti
 
 ```python
 packets = sniff(count=7)
 packet.summary()
 ```
 
-+Yakalanan paketlerin paket numrası ile özeti
++ Yakalanan paketlerin paket numrası ile özeti
 
 ```python
 packets = sniff(count=7)
