@@ -48,3 +48,8 @@ sr1(null, timeout=10)
 + dport   = Hedef  port adresi
 + sport   = Kaynak port adresi
 + timeout = Cevap dönülmesi için beklenecek süre zarfı
+
+
+### Referans
+
++ http://resources.infosecinstitute.com/port-scanning-using-scapy/
