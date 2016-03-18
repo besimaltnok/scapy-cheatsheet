@@ -1,6 +1,7 @@
 ### Kurulum
 > - sudo apt-get install <b>pip</b>
-> - sudo pip install <b>python-scapy</b>
+> - sudo pip install **python-scapy**
+> - sudo pip install  **scapy scapy-python3** (Ubuntu sistemler için)
 
 ### Python programlarına dahil etmek
 
