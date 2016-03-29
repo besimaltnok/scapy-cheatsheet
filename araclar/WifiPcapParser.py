@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # Author : Besim ALTINOK
 
-import sys, os
+import os
 from scapy.all import *
 from termcolor import colored
 conf.verb = 0
